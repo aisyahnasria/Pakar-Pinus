@@ -23,8 +23,5 @@ Pakar Pinus is an Android-based expert system application designed to diagnose p
 3. Certainty Factor is calculated to determine the probability of each disease.
 4. The system displays the most probable disease along with its treatment recommendation.
 
-## Screenshots
-(Add application screenshots here)
-
 ## Author
 Aisyah Nasria Putri Simamora
