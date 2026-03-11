@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:background="@color/white">
+
+    <!-- Icon Kiri -->
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/ic_history"
+        app:tint="@color/green" />
+
+    <!-- Nama Penyakit -->
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/icon"
+        android:layout_marginStart="16dp"
+        android:text="Hawar Daun"
+
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textColor="@color/black" />
+
+    <!-- Subteks Hasil Diagnosa -->
+    <TextView
+        android:id="@+id/subtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name"
+        android:layout_toEndOf="@id/icon"
+        android:layout_marginStart="16dp"
+        android:text="Hasil diagnosa: 90 %"
+        />
+
+    <!-- Tanggal -->
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="10dp"
+        android:text="20/07/2023"
+        android:textColor="@color/darkGrey"
+        android:textSize="14sp" />
+
+    <View
+        android:id="@+id/divider5"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/subtext"
+        android:layout_marginTop="10dp"
+        android:background="?android:attr/listDivider" />
+</RelativeLayout>

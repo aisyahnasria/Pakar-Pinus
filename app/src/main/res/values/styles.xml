@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CustomTextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColorHint">@color/darkGrey</item>
+        <item name="android:paddingHorizontal">10dp</item>
+       <item name="hintTextColor">@color/darkGrey</item>
+        <item name="boxBackgroundMode">outline</item>
+        <item name="boxCornerRadiusBottomEnd">10dp</item>
+        <item name="boxCornerRadiusBottomStart">10dp</item>
+        <item name="boxCornerRadiusTopEnd">10dp</item>
+        <item name="boxCornerRadiusTopStart">10dp</item>
+        <item name="boxStrokeColor">@color/grey</item>
+    </style>
+    
+    <style name="CustomButton">
+        <item name="backgroundTint">@color/green</item>
+        <item name="android:textSize">20dp</item>
+    </style>
+    
+    <style name="CustomCardview">
+        <item name="android:layout_width">173dp</item>
+        <item name="android:layout_height">152dp</item>
+        <item name="cardBackgroundColor">@color/white</item>
+        <item name="cardCornerRadius">20dp</item>
+        <item name="strokeColor">@color/green</item>
+        <item name="strokeWidth">2dp</item>
+        <item name="contentPadding">20dp</item>
+        <item name="android:clickable">true</item>
+        <item name="android:foreground">?android:attr/selectableItemBackground</item>
+    </style>
+
+
+    <style name="CustomTextInputLayout2" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <!-- Properti untuk sudut melengkung -->
+        <item name="boxCornerRadiusBottomEnd">10dp</item>
+        <item name="boxCornerRadiusBottomStart">10dp</item>
+        <item name="boxCornerRadiusTopEnd">10dp</item>
+        <item name="boxCornerRadiusTopStart">10dp</item>
+        <item name="boxBackgroundColor">#D9D9D9</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="boxBackgroundMode">filled</item>
+        <item name="android:textColorHint">@color/grey</item>
+
+
+    </style>
+
+    <style name="CustomTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="CustomDialogTheme" parent="Theme.MaterialComponents.Dialog">
+        <item name="android:background">@android:color/white</item>
+        <item name="android:elevation">0dp</item> <!-- Menghapus bayangan -->
+    </style>
+
+
+
+
+</resources>

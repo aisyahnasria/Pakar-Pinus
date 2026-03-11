@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "37853077282",
+    "project_id": "sistempakarpinus",
+    "storage_bucket": "sistempakarpinus.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:37853077282:android:97ebe6bb0637674015cf7b",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGIYaANpHZIUiwGLIIaJYeoHVF6-IQOLY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

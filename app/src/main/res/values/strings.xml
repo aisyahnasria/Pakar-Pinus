@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Pakar Pinus</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string-array name="keyakinan_list">
+        <item>Tidak Yakin</item>
+        <item>Hampir Tidak Yakin</item>
+        <item>Kemungkinan Besar Tidak Yakin</item>
+        <item>Tidak Tahu</item>
+        <item>Mungkin</item>
+        <item>Kemungkinan Besar Yakin</item>
+        <item>Hampir Yakin</item>
+        <item>Yakin</item>
+    </string-array>
+
+</resources>

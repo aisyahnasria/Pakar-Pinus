@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/history_tlbr"
+        app:title="Riwayat Diagnosa"
+        app:titleTextColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        app:navigationIcon="@drawable/ic_back"
+        android:theme="?attr/actionBarTheme" />
+
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="20dp"
+                android:layout_marginTop="20dp"
+                android:text="Gejala Yang Dipilih :"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/history_gejala"
+                android:paddingHorizontal="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Daun – daun mengering (kecokelatan) \nInfeksi pada ujung daun \nDaun atau jarum gugur"
+                android:textColor="@color/black"/>
+
+        <View
+            android:id="@+id/divider9"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginVertical="10dp"
+            android:background="?android:attr/listDivider" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="20dp"
+                android:text="Hasil Diagnosa :"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/history_nama"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="20dp"
+                android:layout_marginTop="5dp"
+                android:text="Penyakit Kutu Lilin : 100 %"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                />
+
+
+            <ImageView
+                android:id="@+id/history_gambar"
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+               android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/img_pest" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="wrap_content"
+                android:paddingHorizontal="20dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Penanganan : "
+                android:textSize="16dp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/history_penanganan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="20dp"
+                android:paddingHorizontal="20dp"
+                android:text="Penggunaan varietas tahan, pengendalian hayati dengan mikroba, penggunaan pupuk yang seimbang, pengamatan intensitas penyakit, dan penggunaan metode FHM. Tindakan ini dapat membantu mengurangi serangan penyakit hawar daun, meningkatkan kesehatan tanaman, dan mengurangi kerugian yang disebabkan oleh penyakit tersebut."
+                android:textColor="@color/black"
+               />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
+
+
+
+
